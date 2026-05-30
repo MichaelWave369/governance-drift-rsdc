@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RSDC Claim Packet",
+  "type": "object",
+  "required": ["schema_version", "claim_id", "claim_text", "claim_boundary", "review_status"],
+  "properties": {
+    "schema_version": {"type": "string"},
+    "claim_id": {"type": "string"},
+    "claim_text": {"type": "string"},
+    "claim_boundary": {
+      "type": "string",
+      "enum": ["EXACT", "VALID_UNDER_ASSUMPTION", "EMPIRICAL_HYPOTHESIS", "ARCHITECTURAL_MAPPING", "SYNTHETIC_ANALYSIS", "SIMULATED_TRACE", "ILLUSTRATIVE_EXAMPLE", "HYPOTHETICAL", "UNVERIFIED", "EMPIRICAL_RUN", "NON_CLAIM"]
+    },
+    "evidence_refs": {"type": "array", "items": {"type": "string"}},
+    "assumptions": {"type": "array", "items": {"type": "string"}},
+    "falsifier_question": {"type": "string"},
+    "blocked_wording": {"type": ["string", "null"]},
+    "allowed_public_wording": {"type": ["string", "null"]},
+    "review_status": {"type": "string", "enum": ["pending", "approved", "blocked", "revise", "operator_override"]},
+    "operator_decision_ref": {"type": ["string", "null"]}
+  }
+}
