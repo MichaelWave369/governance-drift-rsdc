@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: "Governance Drift in AI-Assisted Workflows"
+message: "If you use this framework or repository, please cite it using the metadata in this file."
+type: software
+authors:
+  - family-names: Hughes
+    given-names: Michael
+repository-code: "https://github.com/MichaelWave369/governance-drift-rsdc"
+version: "0.11.1"
+date-released: "2026-05-30"
+abstract: "A claim-disciplined framework for detecting governance drift in AI-assisted workflows using role separation, receipt-based review, claim-boundary enforcement, and proposed relational-continuity drift tests."
+keywords:
+  - AI governance
+  - governance drift
+  - human-AI interaction
+  - role separation
+  - claim boundaries
+  - RSDC
+license: "CC-BY-4.0 AND MIT"
