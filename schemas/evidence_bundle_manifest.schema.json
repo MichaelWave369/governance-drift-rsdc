@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RSDC Evidence Bundle Manifest",
+  "type": "object",
+  "required": ["study_id", "bundle_id", "artifact_label", "files"],
+  "properties": {
+    "study_id": {"type": "string"},
+    "bundle_id": {"type": "string"},
+    "artifact_label": {"type": "string"},
+    "created_at": {"type": "string"},
+    "run_ids": {"type": "array", "items": {"type": "string"}},
+    "model_ids_or_aliases": {"type": "array", "items": {"type": "string"}},
+    "condition_labels": {"type": "array", "items": {"type": "string"}},
+    "exclusion_notes": {"type": "array", "items": {"type": "string"}},
+    "files": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["path", "sha256"],
+        "properties": {
+          "path": {"type": "string"},
+          "sha256": {"type": "string"}
+        }
+      }
+    }
+  }
+}
