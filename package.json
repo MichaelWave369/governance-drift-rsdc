@@ -1,0 +1,22 @@
+{
+  "name": "governance-drift-rsdc",
+  "private": false,
+  "version": "0.11.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "lucide-react": "latest",
+    "framer-motion": "latest",
+    "gh-pages": "latest"
+  },
+  "devDependencies": {}
+}
