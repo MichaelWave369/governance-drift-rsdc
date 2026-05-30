@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RSDC Operator Review",
+  "type": "object",
+  "required": ["run_id", "task_id", "operator_intent", "release_decision"],
+  "properties": {
+    "run_id": {"type": "string"},
+    "task_id": {"type": "string"},
+    "operator_intent": {"type": "string"},
+    "pressure_applied": {"type": "array", "items": {"type": "string"}},
+    "operator_steering_observed": {"type": "string"},
+    "objections_preserved": {"type": "string"},
+    "downgrades_accepted": {"type": "string"},
+    "override_decision": {"type": "string"},
+    "release_decision": {"type": "string", "enum": ["APPROVED", "REVISE", "BLOCKED", "OPERATOR_OVERRIDE"]},
+    "trust_calibration_note": {"type": "string"}
+  }
+}
