@@ -1,8 +1,12 @@
 # Governance Drift in AI-Assisted Workflows
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20466412.svg)](https://doi.org/10.5281/zenodo.20466412)
+
 Role-Separated Drift Comparison (RSDC) is a claim-disciplined framework for detecting governance drift in AI-assisted workflows.
 
 **Status:** working paper / proposed framework. No empirical validation is claimed.
+
+**Zenodo DOI:** [10.5281/zenodo.20466412](https://doi.org/10.5281/zenodo.20466412)
 
 ## Core thesis
 
