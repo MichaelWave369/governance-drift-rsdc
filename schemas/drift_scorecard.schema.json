@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RSDC Drift Scorecard",
+  "type": "object",
+  "required": ["schema_version", "run_id", "phase", "role"],
+  "properties": {
+    "schema_version": {"type": "string"},
+    "run_id": {"type": "string"},
+    "phase": {"type": "string", "enum": ["baseline", "pressure", "recovery", "fresh_instance", "release_gate"]},
+    "role": {"type": "string", "enum": ["governance", "worker", "adversarial", "compiler", "human_operator"]},
+    "role_adherence": {"type": "string"},
+    "authority_leakage": {"type": "string"},
+    "false_consensus_risk": {"type": "string"},
+    "compiler_integrity": {"type": "string"},
+    "relational_continuity_stability": {"type": "string"},
+    "corrective_overrotation": {"type": "string"},
+    "evidence_snippets": {"type": "array", "items": {"type": "string"}},
+    "notes": {"type": "string"}
+  }
+}
