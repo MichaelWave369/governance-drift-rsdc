@@ -6,6 +6,8 @@ authors:
   - family-names: Hughes
     given-names: Michael
 repository-code: "https://github.com/MichaelWave369/governance-drift-rsdc"
+url: "https://michaelwave369.github.io/governance-drift-rsdc/"
+doi: "10.5281/zenodo.20466412"
 version: "0.11.1"
 date-released: "2026-05-30"
 abstract: "A claim-disciplined framework for detecting governance drift in AI-assisted workflows using role separation, receipt-based review, claim-boundary enforcement, and proposed relational-continuity drift tests."
