@@ -1,0 +1,36 @@
+{
+  "title": "Governance Drift in AI-Assisted Workflows: Role-Separated Drift Comparison (RSDC) v0.11.1",
+  "upload_type": "software",
+  "description": "A claim-disciplined framework and public working-paper package for detecting governance drift in AI-assisted workflows using role separation, receipt-based review, claim-boundary enforcement, and proposed relational-continuity drift tests. Status: working paper / proposed framework; no empirical validation claimed.",
+  "creators": [
+    {
+      "name": "Hughes, Michael",
+      "affiliation": "PHI369 Labs / Parallax"
+    }
+  ],
+  "keywords": [
+    "AI governance",
+    "governance drift",
+    "human-AI interaction",
+    "role separation",
+    "claim boundaries",
+    "RSDC",
+    "relational continuity",
+    "corrective over-rotation"
+  ],
+  "license": "cc-by-4.0",
+  "version": "0.11.1",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/MichaelWave369/governance-drift-rsdc",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://michaelwave369.github.io/governance-drift-rsdc/",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ],
+  "notes": "Claim-boundary note: This release does not certify AI safety, alignment, consciousness, trustworthiness, clinical usefulness, legal compliance, or empirical validation. The transcript corpus that motivated the relational-continuity extension is illustrative and not evidence. The corpus is not the evidence; the corpus is the reason T9-T11 exist."
+}
